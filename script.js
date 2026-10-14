@@ -1,6 +1,6 @@
 (function(){
   var heart=document.getElementById('heart'),fill=document.getElementById('fill'),say=document.getElementById('say'),count=document.getElementById('count');
-  var msgs=['Sigue presionando…','Llenando el corazón de amor…','Más amor, ya casi…','Un toque más…','¡Listo, Brenda! 💖'];
+  var msgs=['Sigue presionando…','Llenando el corazón de amor…','Más amor, ya casi…','Un toque más…','¡Muy bien Mamiii! 💖'];
   var taps=0;
   function petals(n){for(var i=0;i<n;i++){var p=document.createElement('span');p.className='petal';p.textContent=['🌸','💗','🌷'][i%3];p.style.left=Math.random()*100+'vw';p.style.animationDuration=(4+Math.random()*4)+'s';p.style.animationDelay=Math.random()*2+'s';document.body.appendChild(p);setTimeout(function(e){e.remove()},10000,p)}}
   heart.addEventListener('click',function(){
