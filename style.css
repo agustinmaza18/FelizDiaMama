@@ -40,3 +40,5 @@ button{touch-action:manipulation}
 .duo{display:flex;gap:12px;width:100%}
 .duo .frame{width:50%;aspect-ratio:3/4;border-width:4px;border-radius:18px}
 .duo .frame:nth-child(2){rotate:1.5deg;margin-top:22px}
+.slide{overflow-y:auto;justify-content:safe center}
+.carta{font-size:clamp(1rem,4.2vw,1.2rem);line-height:1.6;max-width:32ch;font-style:normal;font-weight:500}
