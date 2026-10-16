@@ -37,3 +37,6 @@ section{position:absolute;inset:0;display:flex;flex-direction:column;align-items
 @keyframes fall{to{transform:translateY(110vh) rotate(360deg)}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition-duration:.01s!important}}
 button{touch-action:manipulation}
+.duo{display:flex;gap:12px;width:100%}
+.duo .frame{width:50%;aspect-ratio:3/4;border-width:4px;border-radius:18px}
+.duo .frame:nth-child(2){rotate:1.5deg;margin-top:22px}
